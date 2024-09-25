@@ -72,6 +72,12 @@ body {
 .search-box input {
   flex-grow: 1;
   height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+  padding: 0 30px;
+  min-width: 0;
 }
 
 .search-box button {
@@ -95,5 +101,9 @@ body {
   }
   .header-controls--mobile {
     display: block;
+  }
+
+  .search-box input {
+    padding: 0 15px;
   }
 }
