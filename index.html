@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netkliks</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -27,8 +28,8 @@
       <section class="search">
         <div class="container">
           <div class="search-box">
-            <input type="text" placeholder="Что хотите посмотреть?" />
-            <button>
+            <input id="search-input" type="text" placeholder="Что хотите посмотреть?" />
+            <button id="search-button">
               <img src="images/search.svg" alt="search" />
               <span>Найти</span>
             </button>
@@ -123,25 +124,29 @@
             </div>
             <div class="content-sidebar">
               <div class="content-sidebar__info">
-                <h4 class="content-sidebar__info--title">Подборки фильмов и сериалов</h4>
+                <h4 class="content-sidebar__info--title">
+                  Подборки фильмов и сериалов
+                </h4>
                 <div class="content-sidebar__info--wrapper">
                   <div class="content-sidebar__info--item">
                     <h5>Топ-250</h5>
-                    <p>Подборка фильмов и сериалов
-                      с наивысшими оценками
-                      зрителей</p>
+                    <p>
+                      Подборка фильмов и сериалов с наивысшими оценками зрителей
+                    </p>
                   </div>
                   <div class="content-sidebar__info--item">
                     <h5>Посмеяться от души</h5>
-                    <p>Подборка комедий, которые
-                      помогут расслабиться после
-                      работы</p>
+                    <p>
+                      Подборка комедий, которые помогут расслабиться после
+                      работы
+                    </p>
                   </div>
                   <div class="content-sidebar__info--item">
                     <h5>Запутанный сюжет</h5>
-                    <p>Триллеры и прключения
-                      с запутанным и интересным
-                      сюжетом. Невозможно оторваться!</p>
+                    <p>
+                      Триллеры и прключения с запутанным и интересным сюжетом.
+                      Невозможно оторваться!
+                    </p>
                   </div>
                 </div>
               </div>
